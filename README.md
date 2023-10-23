@@ -7,7 +7,8 @@ Clone the repo and directly replace this mirrorlist with your existing mirrorlis
 
 or run this command on your terminal and let the command do it's thing
 
+```bash
 git clone https://github.com/pingu0b/pacman-mirrorlist-in.git && cd pacman-mirrorlist-in > /tmp/pacman-mirrors-in && cat /tmp/pacman-mirrors-in /etc/pacman.d/mirrorlist | sudo tee /etc/pacman.d/mirrorlist
-
+```
 Disclaimer: Make sure to create a backup file of your mirrorlist if you are planning to revert back to the old one because the above command completely rewrites the file.
 
